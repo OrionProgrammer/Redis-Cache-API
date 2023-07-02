@@ -4,11 +4,16 @@ Distributed Cache with Redis
 
 ### Features ###
 
-* Redis Cache
+* Redis Caching
+* Generic Cache Key Class for managing Keys
+* Keys managed based on nameOf DataContext Object
+* Cache Service Wrapper for managing Cache
+* Lock applied to safely manage multople threads accessing the same code. 
 * .Net 6.0
 * C#
 * Microsoft SQL Server
 * Entity Framework Core
+
 
 ### Running the API ###
 
